@@ -83,6 +83,8 @@ public class CarDBCntrlr {
 		List<CarReqDet> userDet = carRep.findByDesignation(designation);
 		System.out.println("no exp des");
 		System.out.println(userDet);
+		
+		System.out.println(userDet + "GIT");
 		//RestTemplate  resttemp = new RestTemplate();
 		//CarReqDet carReq =	resttemp.getForObject("https://localhost:8081/home", CarReqDet.class);
 		//return carReq;
